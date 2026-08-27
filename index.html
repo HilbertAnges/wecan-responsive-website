@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <!-- 让网页在手机上正确缩放 -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>WECAN Smart Home</title>
+
+  <!-- 连接CSS文件 -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- 顶部导航栏 -->
+  <header class="navbar">
+    <div class="container nav-container">
+
+      <a class="logo" href="#home">WECAN</a>
+
+      <!-- 手机端菜单按钮 -->
+      <button
+        class="menu-button"
+        id="menuButton"
+        aria-label="Open navigation menu"
+        aria-expanded="false"
+      >
+        ☰
+      </button>
+
+      <nav class="nav-menu" id="navMenu">
+        <a href="#home">Home</a>
+        <a href="#features">Features</a>
+        <a href="#project">Project</a>
+        <a href="#faq">FAQ</a>
+        <a class="btn btn-small" href="#contact">Contact</a>
+      </nav>
+
+    </div>
+  </header>
+
+  <main>
+
+    <!-- 首页介绍区域 -->
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+
+        <div class="hero-text">
+          <p class="label">SMARTER LIFE, BETTER HOME</p>
+
+          <h1>Creating a smarter and more comfortable home</h1>
+
+          <p>
+            WECAN is a student team developing smart-home solutions
+            using sensors, automation and intelligent control.
+          </p>
+
+          <div class="hero-buttons">
+            <a class="btn" href="#features">Explore Features</a>
+            <a class="btn btn-light" href="#project">Our Project</a>
+          </div>
+        </div>
+
+        <div class="hero-picture">
+          <span>🏠</span>
+          <h2>WECAN Smart Home</h2>
+          <p>Automation · Safety · Energy Saving</p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 功能卡片区域：这里使用CSS Grid -->
+    <section class="section" id="features">
+      <div class="container">
+
+        <div class="section-heading">
+          <p class="label">OUR FEATURES</p>
+          <h2>Technology for everyday life</h2>
+          <p>
+            Our system connects sensors and home devices to make daily
+            life safer, easier and more energy-efficient.
+          </p>
+        </div>
+
+        <div class="card-grid">
+
+          <article class="card">
+            <div class="card-icon">💡</div>
+            <h3>Smart Lighting</h3>
+            <p>
+              Automatically control lights according to time,
+              brightness and human presence.
+            </p>
+          </article>
+
+          <article class="card">
+            <div class="card-icon">🛡️</div>
+            <h3>Home Safety</h3>
+            <p>
+              Monitor temperature, smoke and unusual activity with
+              connected sensors.
+            </p>
+          </article>
+
+          <article class="card">
+            <div class="card-icon">⚡</div>
+            <h3>Energy Saving</h3>
+            <p>
+              Analyse energy use and reduce unnecessary electricity
+              consumption.
+            </p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- 项目介绍 -->
+    <section class="section project-section" id="project">
+      <div class="container project-layout">
+
+        <div>
+          <p class="label">STUDENT PROJECT</p>
+          <h2>Designed by the WECAN team</h2>
+          <p>
+            Our five-member team combines electrical engineering,
+            mechanical design and intelligent control to develop
+            practical smart-home technology.
+          </p>
+        </div>
+
+        <div class="project-list">
+          <div><strong>01</strong> Environmental monitoring</div>
+          <div><strong>02</strong> Automatic device control</div>
+          <div><strong>03</strong> Mobile-friendly interface</div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- FAQ手风琴 -->
+    <section class="section" id="faq">
+      <div class="container faq-container">
+
+        <div class="section-heading">
+          <p class="label">FAQ</p>
+          <h2>Frequently asked questions</h2>
+        </div>
+
+        <details class="faq-item">
+          <summary>What is a smart home system?</summary>
+          <p>
+            A smart home system connects sensors, controllers and home
+            devices so that they can work automatically.
+          </p>
+        </details>
+
+        <details class="faq-item">
+          <summary>Does the website work on mobile phones?</summary>
+          <p>
+            Yes. The page uses responsive CSS and media queries to
+            adapt to different screen sizes.
+          </p>
+        </details>
+
+        <details class="faq-item">
+          <summary>Which technologies are used?</summary>
+          <p>
+            This website uses HTML for structure, CSS for appearance
+            and JavaScript for the mobile navigation menu.
+          </p>
+        </details>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- 页脚 -->
+  <footer class="footer" id="contact">
+    <div class="container footer-content">
+
+      <div>
+        <h2>WECAN</h2>
+        <p>Student Smart Home Project</p>
+      </div>
+
+      <div>
+        <p>Email: wecan@example.com</p>
+        <p>© 2026 WECAN Team</p>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- 连接JavaScript文件 -->
+  <script src="script.js"></script>
+</body>
+</html>
